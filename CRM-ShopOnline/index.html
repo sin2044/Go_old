@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Формы</title>
+</head>
+<body>
+  <h1>Добавить товар</h1>
+  <form action="https://jsonplaceholder.typicode.com/posts"
+        method="post">
+        <fieldset>
+          <label> 
+            <input type="text" name="name">
+            Наименование
+          </label>
+          <br>
+          <br>
+          <label > 
+            <input type="text" name="category">
+            Категория
+          </label>
+          <br>
+          <br>
+          <label>
+            <input type="text" name="units">
+            Eдиницы измерения
+          </label>
+          <br>
+          <br>
+          <label>
+            <input type="checkbox" name="discount" value="discount">
+            Дисконт
+          </label>
+          <br>
+          <br>
+          <input type="text" name="discount" disabled>
+          <br>
+          <label>
+            <textarea name="descripiton"></textarea>
+            Описание
+          </label>
+          <br>
+          <br>
+          <label>
+            <input type="number" name="count">
+            Количество
+          </label>
+          <br>
+          <br>
+          <label>
+            <input type="text" name="price">
+            Цена
+          </label>
+          <br>
+          <br>
+          <label>
+            Выберите файл
+            <input type="file" name="file">
+          </label>
+        </fieldset>
+        <label >
+          <button type="submit">Добавить товары</button>
+        </label>
+  </form>
+</body>
+</html>
