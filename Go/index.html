@@ -8,18 +8,24 @@
   <title>Document</title>
 </head>
 <body>
-  <img src="img/logo.png" height="66" alt="Логотип">
-  <h1>Меню</h1>
-  <ul>
-    <li><a href="#">Залы</a></li>
-    <li><a href="#">О нас</a></li>
-    <li><a href="#">Бронь</a></li>
-    <li><a href="#">Отзывы</a></li>
-    <li><a href="#">Контакты</a></li>
-  </ul>
-
-  <h2>У нас есть всё для классного отдыха с друзьями!</h2>
-  <ul>
+  <header>
+    <img src="img/logo.png" height="66" alt="Логотип">
+    <nav>
+      <ul>
+      <li><a href="#halls">Залы</a></li>
+      <li><a href="#about">О нас</a></li>
+      <li><a href="#reservation">Бронь</a></li>
+      <li><a href="#reviews">Отзывы</a></li>
+      <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+  <!-- <h1>Меню</h1> -->
+  
+  <section>
+    <h1>У нас есть всё для классного отдыха с друзьями!</h1>
+    <ul>
     <li>
       <figure>
         <img src="img/vr.jpg" height="228" alt="Очки виртуальной реальности">
@@ -57,18 +63,20 @@
     </li>
   </ul>
 
-<h2>Наши залы</h2>
+<h2 id="halls">Наши залы</h2>
 <ol>
   <li>80's vibes</li>
   <li>Star Wars</li>
   <li>Wild west</li>
   <li>Neon style</li>
 </ol>
+  </section>
 
-<h2>Забронировать</h2>
-<form action="https://jsonplaceholder.typicode.com/posts"
-      method="post">
-  <fieldset>
+<section>
+  <h2    id="reservation">Забронировать зал просто</h2>
+  <form action="https://jsonplaceholder.typicode.com/posts"
+        method="post">
+    <h3>Выбери Зал</h3>
     <label>
       <input type="radio" name="hall" value="80's vibes">
       80's vibes
@@ -85,65 +93,61 @@
       <input type="radio" name="hall" value="Neon style">
       Neon style
     </label>
-  </fieldset>
-  <fieldset>
-    <legend>Собери набор развлечений</legend>
-    
-    <fieldset>
-      <legend>Приставка:</legend>
+    <h3>Собери набор развлечений</h3>
+      <h4>Приставка</h4>
       <label>
         <input type="radio" name="console" value="Sony Playstation">
         Sony Playstation
       </label>
+      <br>
       <label >
         <input type="radio" name="console" value="Sega Mega Drive">
         Sega Mega Drive
       </label>
+      <br>
       <label>
         <input type="radio" name="console" value="Xbox One">
         Xbox One
       </label>
+      <br>
       <label>
         <input type="radio" name="console" value="Dendy">
         Dendy
       </label>
-    </fieldset>
-
-    <fieldset>
-      <legend>Настольные игры:</legend>
+    
+      <h4>Настольные игры:</h4>
       <label>
         <input type="radio" name="board game" value="Jenga">
         Jenga
       </label>
+      <br>
       <label>
         <input type="radio" name="board game" value="Monopoly">
         Monopoly
       </label>
+      <br>
       <label>
         <input type="radio" name="board game" value="Манчкин">
         Манчкин
       </label>
+      <br>
       <label>
         <input type="radio" name="board game" value="Alias">
         Alias
       </label>
-    </fieldset>
 
-    <fieldset>
-      <legend>Дополнительно:</legend>
+      <h4>Дополнительно:</h4>
       <label>
         <input type="checkbox" name="additionally" value="Karaoke">
         Караоке
       </label>
+      <br>
       <label>
         <input type="checkbox" name="additionally" value="VR">
         VR
       </label>
-    </fieldset>
-  </fieldset>
 
-    <fieldset>
-      <legend>Выбери дату и время</legend>
+      <h4>Выбери дату и время</h4>
       <label >Дата*
         <input type="date" name="date" required>
       </label>
@@ -171,7 +175,6 @@
         <input type="checkbox" name="age" value="age" required>
         Я старше 18 лет
       </label>
-    </fieldset>
   
   <button type="submit">Забронировать</button>
   <label>
@@ -179,15 +182,41 @@
     Согласен на обработку персональных данных
   </label>
 </form>
+</section>
 
-  <h2>О нас</h2>
-<p>Для наших гостей мы создали <i>концептульно новое игровое пространство виртуальной реальности</i> в центральной части города.</p>
-<p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
-<blockquote>
-  <p><b>GAME OVER</b> — это место незабываемых впечатлений</p>
-  <p><cite>Аркадий Абакшин, создатель игровой территории GAME OVER</cite></p>
-</blockquote>
-<h2>Контакты</h2>
+  <section>
+    <h2 id="about">О нас </h2>
+    <p>Для наших гостей мы создали <i>концептульно новое игровое пространство виртуальной реальности</i> в центральной части города.</p>
+    <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
+    <blockquote>
+    <p><b>GAME OVER</b> — это место незабываемых впечатлений</p>
+    <p><cite>Аркадий Абакшин, создатель игровой территории GAME OVER</cite></p>
+    </blockquote>
+  </section>
+
+  <section>
+    <h2 id="reviews">Отзывы посетителей</h2>
+    <figure>
+      <!-- <img src="" alt=""> -->
+      <figcaption>Макс Самойлов</figcaption>
+    </figure>
+    <p>Отмечали здесь день рождения в кампании друзей, всё было очень круто! VR очки просто бомба, никогда ещё я не был в таком игровом погружении. Сервис на высоте!</p>
+
+    <figure>
+      <!-- <img src="" alt=""> -->
+      <figcaption>Оксана Григорьева</figcaption>
+    </figure>
+    <p>Были в комнате Дикий запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе больше нет подобных заведений</p>
+
+    <figure>
+      <!-- <img src="" alt=""> -->
+      <figcaption>Никита Ященко</figcaption>
+    </figure>
+  <p>Немного подвисала игра в VR очках, а так всё норм. Крутое оформление комнаты в стиле звездных войн, попал в атмосверу космоса</p>
+</section>
+</main>
+<footer class="footer">
+  <h2 id="contacts">Контакты</h2>
 <p>г.Москва ул. Аквамарина, 16</p>
 <a href="tel:89509302893">8(950)930-28-93</a>
 <br>
@@ -197,5 +226,6 @@
   <li><a href="#">Vkontakte</a></li>
   <li><a href="#">Telegram</a></li>
 </ul>
+</footer>
 </body>
 </html>
