@@ -16,7 +16,6 @@
   background-color: #440F51;
 }
 
-
 .element:after {
   content: "";
   position: absolute;
@@ -32,13 +31,7 @@
 .even:after {
   content: "";
   position: absolute;
-  right: 70px;
-  top: 30px;
-  display: inline-block;
-  width: 46px;
-  height: 46px; 
   background-image: url(../img/open.svg);
-  background-repeat: no-repeat; 
 }
 
 
