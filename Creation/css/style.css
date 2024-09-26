@@ -1,0 +1,41 @@
+.article {
+  background-color:aquamarine;
+}
+
+.main-title {
+  color: red;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.second-title {
+  color: red;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.list-item {
+  font-size:18px ;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  background-color: yellow;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
