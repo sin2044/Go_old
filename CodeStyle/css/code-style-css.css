@@ -1,0 +1,52 @@
+
+.first-list {
+  width: 300px;
+  background-color: gray;
+}
+
+.list-link {
+  color: #000000
+}
+
+.second-list {
+  list-style: none;
+}
+
+.first-figure,.second-figure {
+  border: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.first-description {
+  margin-bottom: 10px;
+}
+
+.first-img {
+  height: 294px;
+}
+
+.second-description {
+  margin-bottom: 10px;
+}
+
+
+.second-img {
+  height: 257px;
+}
+
+.third-list {
+  list-style: none
+}
+
+.third-fieldset {
+  border:none
+}
+
+.third-img {
+  height: 495px;
+}
+
+.validation-css {
+  color: #000000;
+}

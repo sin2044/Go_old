@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/code-style-css.css">
+  <title>Code Style CSS</title>
+</head>
+<body>
+
+  <article>
+    <h1>Code Style HTML</h1>
+    <ul class="first-list">
+      <li class="list-item"><a class="list-link" href="/index.html">Code Style HTML</a></li>
+      <li class="list-item"><a class="list-link" href="/css-code-style.html">Code Style CSS</a></li>
+      <li class="list-item"><a class="list-link" href="#">Code Style Javascript для Верстальщика</a></li>
+    </ul>
+    <p>Хороший код — это код который удобно читать и поддерживать.</p>
+    <p>Хороший код должен быть простым:</p>
+    <ul class="second-list">
+      <li>— используйте легко читаемые селекторы и говорящие классы. По ним сразу можно понять к чему применяются стили.</li>
+      <li>— классы пишите в нижнем регистре (строчными буквами).</li>
+      <li>— вместо пробела в классах используйте знак «дефис». Старайтесь не использовать нижнее подчеркивание и camelCase.</li>
+      <li>— код должен быть в одном стиле: везде используется один порядок свойств, одинаковые отступы и пробелы, один стиль записи цветов и псевдоэлементов.</li>
+    </ul>
+    
+    <figure class="first-figure">
+      <figcaption class="first-description">плохо</figcaption>
+      <img class="first-img" src="img/bad-css.avif" alt="пример неправильного оформление css">
+    </figure>
+    
+    <figure class="second-figure">
+      <figcaption class="second-description">хорошо</figcaption>
+      <img class="second-img" src="img/good-css.avif" alt="пример правильного оформления css">
+    </figure>
+
+    <ul class="third-list">
+      <li>— после селектора, перед открывающей блок «фигурной скобкой» ставьте «пробел».</li>
+      <li>— в начале строки перед свойствами ставится «два пробела». Это самый популярный вариант.</li>
+      <li>— после двоеточия ставьте «пробел».</li>
+      <li>— обязательно ставить «точку с запятой» в конце свойства.</li>
+      <li>— ставьте закрывающую «фигурную скобку» на новой строке.</li>
+    </ul>
+    <p>Между набором правил оставляйте одну пустую строку:</p>
+    <figure class="third-figure">
+      <img class="third-img" src="img/rule-set.avif" alt="Оформление интервалов между наборами правил css">
+    </figure>
+    <p>Все стили пишем через селектор класса. Теги используем только для глобальных стилей, <b>id</b> в стилях не используем.</p>
+    <p>Избегайте использование <b>!important.</b></p>
+    <p>Псевдокласс <b>nth-child</b> используем только со значениями <b>even</b> и <b>odd</b>. В остальных случая используем дополнительный класс.</p>
+    <p>Сохраняйте уровень вложенности не более двух элементов, если не используем БЭМ.</p>
+    <p>Плохо: <b>.block .faq .title</b></p>
+    <p>Хорошо <b>.faq .title</b></p>
+    <p>При использовании БЭМ вложенность не используется.</p>
+    <p>Обязательно указывайте альтернативный вид и тип семейства шрифтов.</p>
+    <p>Проверяйте вёрстку на переполнение.</p>
+    <p>У интерактивных элементов обязательны стили состояний: <b>hover, focus, active, disabled.</b></p>
+    <p>Если используете свойство <b>display: inline-block</b>, обязательно добавляйте свойство <b>vertical-align.</b></p>
+    <p>Свойство <b>position</b> используем в крайнем случае. Исключение: если иначе сделать невозможно или сложно.</p>
+    <p>У нулевых значений не нужно писать единицы измерения. Когда значение <b>0</b>, то не важно это px, % или попугайчики.</p>
+    <p>Значения цвета hex пишем в нижнем регистре.</p>
+    <p>Проверяйте css в валидаторе — <a class="validation-css" href="https://jigsaw.w3.org/css-validator/">https://jigsaw.w3.org/css-validator/</a> </p>
+    <section>
+      <h2>Дополнительно</h2>
+      <p>В названиях файлов и папок используйте только латиницу и буквы в нижнем регистре, без пробелов. Для разделения слов используйте «дефис» или нижние подчёркивание.</p>
+    </section>
+  </article>
+
+</body>
+</html>
