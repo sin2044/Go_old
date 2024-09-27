@@ -8,6 +8,7 @@
   font-weight: 600;
 }
 
+
 .second-title {
   color: red;
   font-size: 32px;
@@ -30,6 +31,7 @@
   height: auto;
   background-color: yellow;
   margin-right: 10px;
+  vertical-align: middle;
 }
 
 
