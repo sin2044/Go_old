@@ -56,7 +56,6 @@ body {
 
 .link:before {
   content: "";
-  display: inline-block;
   width: 24px;
   height: 24px;
   position: absolute;
