@@ -1,13 +1,8 @@
 @import url(style.css);
 @import url(faq.css);
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-h1,h2,h3,h4,h5,h6 {
-  margin: 0;
-}
+
 
 .intro {
   height: 823px;
@@ -182,12 +177,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .about-pic {
+  display: inline-block;
   margin-right: 29px;
 }
 
 .author-creator {
   text-align: left;
-  max-width: 201px;
+  max-width: 270px;
   display: inline-block;
   vertical-align: top;
 }
@@ -211,6 +207,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .footer {
   padding-top: 100px;
+  padding-bottom: 51px;
 }
 
 .footer-title {
