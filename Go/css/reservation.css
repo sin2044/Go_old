@@ -1,0 +1,17 @@
+.reservation{
+  padding-top: 100px
+}
+
+.reservation-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 50px;
+}
+
+.form__btn {
+  background-color: #ffffff;
+  color: #000000
+}

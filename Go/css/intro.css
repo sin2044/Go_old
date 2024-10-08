@@ -1,0 +1,23 @@
+.intro__container {
+    height: 823px;
+    background-image: url(../img/intro.png);
+    background-position: right 61px;
+    background-repeat: no-repeat;
+  }
+  
+  .intro__title {
+    text-align: left;
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: -0.1em;
+  }
+    
+  .intro__subtitle {
+    text-align: left;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 50px;
+    padding-left: 100px;
+    margin: 0;
+  }

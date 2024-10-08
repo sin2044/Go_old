@@ -1,0 +1,62 @@
+.halls {
+  padding-top: 100px;
+}
+.halls__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 60px;
+}
+
+.halls__list {
+  list-style: none;
+}
+
+.halls__item {
+  margin-bottom: 60px;
+}
+.halls__item:last-child {
+  margin-bottom: 0;
+}
+
+.halls__card {
+  height: 710px;
+  position: relative;
+}
+
+.halls__caption {
+  text-transform: uppercase;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.caption-vibes {
+  max-width: 211px;
+  position: absolute;
+  top: 275px;
+  left: 484px;
+}
+
+.caption-wars {
+  max-width: 252px;
+  position: absolute;
+  top: 275px;
+  left: 464px;
+}
+
+.caption-west {
+  max-width: 203px;
+  position: absolute;
+  top: 275px;
+  left: 464px;
+}
+
+.caption-neon {
+  max-width: 226px;
+  position: absolute;
+  top: 275px;
+  left: 477px;
+}
