@@ -1,0 +1,182 @@
+@font-face {
+  font-family: "Inter";
+  src: local("Inter-SemiBold"), local("InterDisplay-SemiBold"),
+  url(../fonts/Inter-SemiBold.woff2) format("woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter-Bold"), local("InterDisplay-Bold"),
+  url(../fonts/Inter-Bold.woff2) format("woff2");
+  font-weight: 700;
+}
+
+
+.order {
+  width: 792px;
+  height: 823px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+  background: #f2f0f9;
+}
+.order__container {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.order__title {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  color: #6E6893;
+  padding-top: 32px;
+  margin-bottom: 43px;
+}
+
+.order__title:after {
+  content: "";
+  width: 23px;
+  height: 23px;
+  position:absolute;
+  right: -100px;
+  top: 20px;
+  background-image: url(../img/cross.svg);
+  background-repeat: no-repeat;
+
+}
+
+
+.form {
+  width: 580px;
+  height: 620px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  padding: 28px;
+  margin-bottom: 32px;
+
+
+}
+
+.form__label {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #6e6893;
+  padding-left: 10px;
+  margin-bottom: 12px;
+}
+
+
+
+.form__input {
+  display: block;
+  width: 524px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #f4f2ff;
+  margin-bottom: 12px;
+
+}
+.form__input:last-child {
+  margin-bottom: 0px;
+}
+
+
+
+
+
+.textarea {
+  min-height: 112px;
+  border-radius: 6px;
+  resize: none;
+}
+
+
+
+.form__discount-label {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #6e6893;
+  padding-left: 10px;
+  
+
+}
+
+
+/* чекбокс */
+.form__discount-checkbox {
+  position: relative;
+  border-radius: 6px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #f4f2ff;
+  appearance: none;
+}
+
+.form__discount-checkbox:before {
+  content: "";
+  display: inline-block;
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #f4f2ff;
+
+}
+
+.form__discount-checkbox:after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 7.5px;
+  left: 5px;
+  background-image: url(../img/check.svg);
+  opacity: 0;
+}
+
+.form__discount-checkbox:checked:after {
+  opacity: 1;
+}
+
+/* закрытый инпут */
+.form__discount-input {
+  width: 474px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 6px;
+  background-color: #eeeeee;
+  margin-bottom: 12px;
+}
+.form__discount-input:after {
+  background-color: #f4f2ff;
+
+}
+
+
+.form__btn-container {
+  text-align: right;
+  padding-right: 28px;
+
+}
+
+.form__btn {
+  max-width: 200px;
+  height: 39px;
+  border-radius: 6px;
+  color: #ffffff;
+  background-color: #6d5bd0;
+  padding: 10px 25px;
+}
+
