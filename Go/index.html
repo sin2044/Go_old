@@ -11,19 +11,7 @@
   <title>Клуб Go</title>
 </head>
 <body>
-  
-    <!-- <header>
-      <img src="img/logo.png" height="66" alt="Логотип">
-      <nav>
-        <ul>
-        <li><a href="#halls">Залы</a></li>
-        <li><a href="#about">О нас</a></li>
-        <li><a href="#reservation">Бронь</a></li>
-        <li><a href="#reviews">Отзывы</a></li>
-        <li><a href="#contacts">Контакты</a></li>
-        </ul>
-      </nav>
-    </header> -->
+
   <main>
     <section class="intro">
       <div class="intro__container container">
@@ -36,44 +24,12 @@
       <div class="halls__container container">
         <h2 class="halls__title" id="halls">Наши залы</h2>
         <ol class="halls__list">
-          <li class="halls__item">
-            <figure class="halls__card">
-              <img class="halls__img" src="img/80's_vibes.jpg" alt="Зал в стиле 80-х годов">
-            <figcaption class="halls__caption caption-vibes">80's vibes</figcaption>
-          </figure>
-        </li>
-          <li class="halls__item">
-            <figure class="halls__card">
-              <img class="halls__img" src="img/star_wars.jpg" alt="Зал в стиле Звёздных Войн">
-              <figcaption class="halls__caption caption-wars">Star Wars</figcaption>
-            </figure>
-          </li>
-          
-          <li class="halls__item">
-            <figure class="halls__card">
-              <img class="halls__img" src="img/wild_west.jpg" alt="Зал в стиле дикого запада">
-              <figcaption class="halls__caption caption-west">Wild west</figcaption>
-            </figure>
-          </li>
-          
-          <li class="halls__item">
-            <figure class="halls__card">
-              <img class="halls__img" src="img/neon_style.jpg" alt="Зал в неоновом стиле">
-              <figcaption class="halls__caption caption-neon">Neon style</figcaption>
-            </figure>
-          </li>
+          <li class="halls__item vibes"><p class="halls__caption hall-vibes">80's vibes</p></li>
+          <li class="halls__item wars"><p class="halls__caption hall-wars">Star Wars</p></li>
+          <li class="halls__item west"><p class="halls__caption hall-west">Wild west</p></li>
+          <li class="halls__item neon"><p class="halls__caption hall-neon">Neon style</p></li>
         </ol>
       </div>
-      <!-- <h1>У нас есть всё для классного отдыха с друзьями!</h1>
-      <ul>
-      <li>VR очки</li>
-      <li>Аудио-система 5.1 с отличным звуком</li>
-      <li>Караоке (4 микрофона)</li>
-      <li>Настольные игры</li>
-      <li>Киносервисы Netflix, IVI, MegoGo, КиноПоиск, OKKO</li>
-      <li>Playstation 5</li>
-      </ul> -->
-  
     </section>
   
     <section class="reservation">
@@ -195,16 +151,12 @@
       <div class="about__container container">
         <h2 class="about__title" id="about">О нас </h2>
         <div class="about__wrapper">
-          <div class="about__place">
-            <img src="img/about_img.jpg" alt="Фотографии развлечений" class="place-img">
-          </div>
+          <div class="about__place"></div>
           <div class="about__desc">
             <p class="about__first-paragraph">Для наших гостей мы создали концептульно новое игровое пространство виртуальной реальности в центральной части города.</p>
             <p class="about__second-paragraph">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
             <blockquote class="about__blockquote ">
-            <p class="about__blockquote-text">
-              GAME OVER — ЭТО МЕСТО НЕЗАБЫВАЕМЫХ ВПЕЧАТЛЕНИЙ
-            </p>
+            <p class="about__blockquote-text">GAME OVER — ЭТО МЕСТО НЕЗАБЫВАЕМЫХ ВПЕЧАТЛЕНИЙ</p>
             <figure class="about__author">
               <img class="about__author-img" src="img/creator.png" alt="Основатель клуба"> 
               <figcaption class="about__author-text">Аркадий Абакшин, создатель игровой территории GAME OVER</figcaption>
@@ -215,27 +167,6 @@
       </div>
       </section>
     
-    <!-- <section>
-      <h2 id="reviews">Отзывы посетителей</h2>
-      <figure>
-        <img src="" alt="">
-        <figcaption>Макс Самойлов</figcaption>
-      </figure>
-      <p>Отмечали здесь день рождения в кампании друзей, всё было очень круто! VR очки просто бомба, никогда ещё я не был в таком игровом погружении. Сервис на высоте!</p>
-  
-      <figure>
-        <img src="" alt="">
-        <figcaption>Оксана Григорьева</figcaption>
-      </figure>
-      <p>Были в комнате Дикий запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе больше нет подобных заведений</p>
-  
-      <figure>
-        <img src="" alt="">
-        <figcaption>Никита Ященко</figcaption>
-      </figure>
-    <p>Немного подвисала игра в VR очках, а так всё норм. Крутое оформление комнаты в стиле звездных войн, попал в атмосверу космоса</p>
-      
-    </section> -->
 
   <section class="faq">
     <div class="faq__container container">
@@ -254,18 +185,67 @@
   <footer class="footer">
     <div class="footer__container container">
       <h2 class="footer__title" id="contacts">Контакты</h2>
-      <p class="footer__adress location-icon">
-      г.Москва 
-      ул. Аквамарина, 16
-      </p>
-      <a href="tel:89509302893" class="footer__tel tel-icon">8(950)930-28-93</a>
-      <a href="mailto:GameOver@gmail.com" class="footer__email email-icon" >GameOver@gmail.com</a>
-      <div class="footer__social social">
-        <a href="#" class="social__link"><img src="img/vk.svg" alt="иконка вконтакте" class="social__img"></a>
-        <a href="#" class="social__link"><img src="img/telegram.svg" alt="иконка телеграм" class="social__img"></a>
-        <a href="#" class="social__link"><img src="img/pinterest.svg" alt="иконка пинтерест" class="social__img"></a>
-        <a href="#" class="social__link"><img src="img/stumbleupon.svg" alt="иконка стамблепон" class="social__img"></a>
-      </div>
+      <address class="footer__address">
+        <div class="footer__location-wrapper">
+          <svg class ="footer__location-icon" width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path d="M16 0C10.37 0 5.68 4.52 5.68 10.31C5.68 12.51 6.34 14.47 7.61 16.31L15.21 28.16C15.57 28.73 16.42 28.73 16.78 28.16L24.41 16.27C25.65 14.51 26.31 12.45 26.31 10.31C26.31 4.62 21.68 0 16 0ZM16 15C13.41 15 11.31 12.89 11.31 10.31C11.31 7.72 13.41 5.62 16 5.62C18.58 5.62 20.68 7.72 20.68 10.31C20.68 12.89 18.58 15 16 15Z" fill="#CD06FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path d="M23.32 21.54L18.6 28.92C17.38 30.82 14.6 30.82 13.39 28.92L8.66 21.54C4.5 22.5 1.93 24.26 1.93 26.37C1.93 30.02 9.18 32 16 32C22.81 32 30.06 30.02 30.06 26.37C30.06 24.26 27.49 22.5 23.32 21.54Z" fill="#CD06FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+          </svg>
+          <p class="footer__address-text">
+            г.Москва
+            ул. Аквамарина, 16
+          </p>
+        </div>
+        
+        <div class="footer__tel-wrapper">
+          <svg class="footer__tel-icon" width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path d="M26.66 14.66L29.33 14.66C29.33 7.82 24.16 2.66 17.32 2.66L17.32 5.33C22.73 5.33 26.66 9.25 26.66 14.66Z" fill="#CD06FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path d="M17.33 10.66C20.13 10.66 21.33 11.86 21.33 14.66L24 14.66C24 10.36 21.63 8 17.33 8L17.33 10.66ZM21.89 17.92C21.63 17.69 21.3 17.56 20.95 17.57C20.61 17.58 20.28 17.73 20.04 17.98L16.85 21.26C16.08 21.11 14.53 20.63 12.94 19.04C11.36 17.45 10.87 15.91 10.73 15.14L14.01 11.95C14.26 11.71 14.4 11.38 14.41 11.04C14.42 10.69 14.3 10.35 14.07 10.1L9.14 4.68C8.91 4.42 8.58 4.27 8.24 4.24C7.89 4.22 7.55 4.34 7.29 4.56L4.39 7.04C4.16 7.28 4.02 7.58 4.01 7.91C3.99 8.24 3.6 16.14 9.73 22.26C15.07 27.6 21.76 28 23.6 28C23.87 28 24.04 27.99 24.08 27.98C24.41 27.97 24.71 27.83 24.94 27.6L27.42 24.7C27.65 24.44 27.76 24.1 27.74 23.75C27.72 23.4 27.57 23.08 27.31 22.85L21.89 17.92Z" fill="#CD06FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+          </svg>
+          <a href="tel:89509302893" class="footer__tel-link">8(950)930-28-93</a>
+        </div>
+          
+        <div class="footer__email-wrapper">
+          <svg class="footer__email-icon" width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path d="M0.66 5.94C5.05 9.66 12.76 16.21 15.03 18.25C15.33 18.52 15.66 18.66 16 18.66C16.33 18.66 16.66 18.52 16.96 18.25C19.23 16.21 26.94 9.66 31.33 5.94C31.6 5.71 31.64 5.31 31.42 5.02C30.91 4.37 30.15 4 29.33 4L2.66 4C1.84 4 1.08 4.37 0.57 5.02C0.35 5.31 0.39 5.71 0.66 5.94Z" fill="#CD06FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+            <path d="M31.61 7.96C31.37 7.85 31.09 7.89 30.9 8.05C26.03 12.18 19.81 17.48 17.86 19.24C16.76 20.23 15.23 20.23 14.13 19.24C12.05 17.36 5.07 11.42 1.09 8.05C0.89 7.89 0.62 7.85 0.38 7.96C0.15 8.07 0 8.3 0 8.56L0 25.33C0 26.8 1.19 28 2.66 28L29.33 28C30.8 28 32 26.8 32 25.33L32 8.56C32 8.3 31.84 8.07 31.61 7.96Z" fill="#CD06FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+          </svg>
+          <a href="mailto:GameOver@gmail.com" class="footer__email-address" >GameOver@gmail.com</a>
+        </div>
+      </address>
+      
+      <ul class="footer__social-list">
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link">
+            <svg class="footer__social-icon" width="50.000000" height="50.000000" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <path id="Vector" d="M24.99 1C11.74 1 0.99 11.74 0.99 25C0.99 38.25 11.74 49 24.99 49C38.25 49 48.99 38.25 48.99 25C48.99 11.74 38.25 1 24.99 1ZM34.22 28.07C34.22 28.07 36.35 30.17 36.87 31.14C36.88 31.16 36.89 31.18 36.9 31.19C37.11 31.55 37.16 31.83 37.05 32.03C36.88 32.38 36.28 32.55 36.07 32.56L32.32 32.56C32.06 32.56 31.52 32.5 30.86 32.04C30.35 31.68 29.85 31.1 29.36 30.54C28.64 29.69 28.01 28.96 27.37 28.96C27.29 28.96 27.21 28.97 27.13 29C26.65 29.15 26.04 29.84 26.04 31.66C26.04 32.23 25.59 32.56 25.27 32.56L23.55 32.56C22.97 32.56 19.92 32.35 17.22 29.51C13.92 26.02 10.94 19.02 10.92 18.96C10.73 18.51 11.12 18.27 11.54 18.27L15.33 18.27C15.83 18.27 16 18.57 16.11 18.85C16.25 19.16 16.74 20.43 17.55 21.85C18.87 24.16 19.68 25.1 20.33 25.1C20.45 25.1 20.57 25.07 20.67 25.01C21.52 24.54 21.36 21.53 21.32 20.9C21.32 20.79 21.32 19.56 20.89 18.97C20.58 18.54 20.05 18.37 19.73 18.31C19.86 18.14 20.03 17.99 20.23 17.89C20.81 17.6 21.85 17.56 22.89 17.56L23.47 17.56C24.59 17.58 24.88 17.65 25.29 17.75C26.12 17.95 26.13 18.48 26.06 20.3C26.04 20.82 26.02 21.41 26.02 22.1C26.02 22.25 26.01 22.41 26.01 22.58C25.98 23.5 25.95 24.56 26.61 24.99C26.7 25.04 26.79 25.07 26.89 25.07C27.12 25.07 27.81 25.07 29.66 21.89C30.23 20.86 30.73 19.8 31.15 18.7C31.19 18.64 31.3 18.44 31.43 18.36C31.52 18.31 31.63 18.29 31.74 18.29L36.19 18.29C36.67 18.29 37.01 18.36 37.07 18.55C37.18 18.85 37.05 19.75 35.02 22.5L34.11 23.7C32.27 26.12 32.27 26.24 34.22 28.07Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link">
+            <svg class="footer__social-icon" width="50.000000" height="50.000000" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <path d="M47.99 24C47.99 30.36 45.47 36.46 40.97 40.97C36.46 45.47 30.36 48 23.99 48C17.63 48 11.53 45.47 7.02 40.97C2.52 36.46 -0.01 30.36 -0.01 24C-0.01 17.63 2.52 11.53 7.02 7.02C11.53 2.52 17.63 0 23.99 0C30.36 0 36.46 2.52 40.97 7.02C45.47 11.53 47.99 17.63 47.99 24ZM24.86 17.71C22.52 18.68 17.85 20.7 10.86 23.74C9.72 24.19 9.13 24.64 9.07 25.07C8.98 25.8 9.9 26.09 11.14 26.48L11.67 26.64C12.89 27.04 14.54 27.51 15.4 27.53C16.18 27.54 17.04 27.23 18 26.57C24.54 22.15 27.91 19.92 28.12 19.88C28.27 19.84 28.48 19.8 28.62 19.92C28.76 20.05 28.75 20.28 28.73 20.35C28.64 20.73 25.05 24.07 23.19 25.8C22.61 26.34 22.2 26.72 22.12 26.81C21.93 27 21.75 27.18 21.56 27.36C20.42 28.46 19.56 29.28 21.6 30.63C22.58 31.28 23.37 31.81 24.15 32.34C25 32.92 25.85 33.5 26.96 34.23C27.24 34.41 27.51 34.6 27.77 34.79C28.76 35.5 29.66 36.13 30.76 36.03C31.4 35.97 32.06 35.37 32.4 33.57C33.2 29.32 34.76 20.11 35.12 16.32C35.14 16 35.13 15.69 35.08 15.37C35.05 15.12 34.93 14.89 34.74 14.72C34.46 14.53 34.14 14.44 33.81 14.44C32.91 14.46 31.52 14.94 24.86 17.71Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+            </svg>
+          </a>
+
+        </li>
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link">
+            <svg class="footer__social-icon" width="50.000000" height="50.000000" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <path d="M25 0C11.19 0 -0.01 11.19 -0.01 25C-0.01 35.23 6.15 44.03 14.96 47.89C14.89 46.15 14.95 44.05 15.39 42.15C15.88 40.12 18.61 28.53 18.61 28.53C18.61 28.53 17.81 26.93 17.81 24.58C17.81 20.87 19.96 18.1 22.63 18.1C24.91 18.1 26.01 19.81 26.01 21.86C26.01 24.14 24.55 27.56 23.8 30.73C23.17 33.38 25.13 35.54 27.74 35.54C32.48 35.54 35.67 29.46 35.67 22.25C35.67 16.77 31.98 12.67 25.27 12.67C17.69 12.67 12.96 18.33 12.96 24.64C12.96 26.82 13.6 28.36 14.61 29.55C15.07 30.09 15.14 30.31 14.97 30.94C14.85 31.4 14.57 32.51 14.46 32.95C14.29 33.58 13.78 33.81 13.21 33.57C9.71 32.15 8.09 28.32 8.09 24.02C8.09 16.92 14.08 8.4 25.96 8.4C35.5 8.4 41.78 15.31 41.78 22.73C41.78 32.53 36.33 39.86 28.29 39.86C25.59 39.86 23.06 38.4 22.19 36.74C22.19 36.74 20.73 42.5 20.43 43.62C19.9 45.54 18.86 47.47 17.91 48.97C20.21 49.65 22.6 50 25 50C38.8 50 49.99 38.8 49.99 25C49.99 11.19 38.8 0 25 0Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link">
+            <svg class="footer__social-icon" width="50.000000" height="50.000000" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <path d="M44.74 9.66C48.15 14.04 50 19.44 49.99 24.99C49.99 38.8 38.8 49.99 25 49.99C15.28 49.99 6.86 44.45 2.72 36.36L13.62 36.36C18.81 36.36 22.44 33.56 22.44 29.09C22.44 19.61 11.5 23.47 11.5 20.1C11.5 18.48 12.8 17.89 15.18 17.89L22.76 17.89C24.87 17.89 27.34 18.27 27.34 20.56L27.34 28.12C27.34 33.59 31.61 36.36 36.04 36.36C40.54 36.36 44.74 33.59 44.74 28.12L44.74 9.66L44.74 9.66Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+              <path d="M25 0C30.01 -0.01 34.91 1.5 39.06 4.33L39.06 28.3C39.06 29.96 37.7 31.32 36.04 31.32C34.38 31.32 33.02 29.96 33.02 28.3L33.02 21.11C33.02 15.38 30.12 12.99 26.34 12.99L14.04 12.99C9.59 12.99 5.89 15.83 5.89 20.32C5.89 22.62 6.88 25.99 11.54 26.83C15.33 27.51 16.83 27.31 16.83 29.35C16.83 31.32 14.62 31.32 11.71 31.32L0.8 31.32C0.26 29.25 -0.01 27.13 -0.01 25C-0.01 11.19 11.19 0 25 0Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
   </footer>
   

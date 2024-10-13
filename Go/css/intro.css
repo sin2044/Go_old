@@ -1,3 +1,6 @@
+.intro {
+  padding-bottom: 50px;
+}
 .intro__container {
     height: 823px;
     background-image: url(../img/intro.png);

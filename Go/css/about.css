@@ -1,5 +1,5 @@
 .about {
-  padding-top: 100px;
+  padding: 50px 0;
 }
 
 .about__title {
@@ -16,10 +16,16 @@
 }
 
 .about__place {
+  background-image: url(../img/about_img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: inline-block;
   width: 600px;
+  height: 596px;
   vertical-align: top;
   margin-right: 80px;
+  
 }
 .about__desc {
   width: 500px;
@@ -36,7 +42,6 @@
 }
 
 .about__second-paragraph {
-  text-align: left;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -59,20 +64,18 @@
 }
 
 .about__blockquote-text:before {
-  content: " \275D";
+  content: "\275D";
   color: #6c0287;
   width: 22px;
   height: 50px;
   position:absolute;
   top: -11px;
   left: -31px;
-
-
 }
 
 .about__blockquote-text:after {
   content: "\275E";
-  color:#6c0287;
+  color: #6c0287;
 }
 
 .about__author {
