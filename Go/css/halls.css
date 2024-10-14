@@ -12,20 +12,23 @@
 
 .halls__list {
   list-style: none;
+  font-size: 0;
 }
 
 .halls__item {
   position: relative;
-  width: 1180px;
-  height: 710px;
+  display: inline-block;
+  vertical-align: top;
+  width: 580px;
+  height: 349px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 60px;
+  margin: 0 20px 20px 0;
 }
 
-.halls__item:last-child {
-  margin-bottom: 0;
+.halls__item:nth-child(even) {
+  margin-right: 0;
 }
 
 .vibes {
@@ -37,10 +40,12 @@
 
 .west {
   background-image: url(../img/wild_west.jpg);
+  margin-bottom: 0;
 }
 
 .neon {
   background-image: url(../img/neon_style.jpg);
+  margin-bottom: 0;
 }
 
 .halls__caption {
@@ -54,29 +59,29 @@
 .hall-vibes {
   position: absolute;
   max-width: 374px;
-  top:315px;
-  left: 403px;
+  top:135px;
+  left: 103px;
 }
 
 .hall-wars {
   position:absolute;
   max-width: 416px;
-  top: 315px;
-  left: 382px
+  top: 135px;
+  left: 82px;
 }
 
 .hall-west {
   position: absolute;
   max-width: 401px;
-  top: 315px;
-  left: 390px;
+  top: 135px;
+  left: 90px;
 }
 
 .hall-neon {
   position: absolute;
   max-width: 448px;
-  top: 315px;
-  left: 366px;
+  top: 135px;
+  left: 68px;
 }
 
 
