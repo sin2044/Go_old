@@ -24,7 +24,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 0 20px 20px 0;
 }
 
 .halls__item:nth-child(even) {
@@ -33,13 +32,17 @@
 
 .vibes {
   background-image: url(../img/80s_vibes.jpg);
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 .wars {
   background-image: url(../img/star_wars.jpg);
+  margin-bottom: 20px;
 }
 
 .west {
   background-image: url(../img/wild_west.jpg);
+  margin-right: 20px;
   margin-bottom: 0;
 }
 
